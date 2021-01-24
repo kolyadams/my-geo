@@ -1,0 +1,29 @@
+#billing_city_field{
+    position: relative;
+}
+
+.mygeo-search__root{
+    display: none;
+    position: relative;
+}
+
+.mygeo-search__root.is-active{
+    display: block;
+    max-height: 420px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.mygeo-search__item{
+    cursor: pointer;
+    padding: 10px;
+    padding: 5px 10px;
+    &:hover{
+        background: #e2efdf;
+    }
+}
